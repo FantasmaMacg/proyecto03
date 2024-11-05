@@ -1,24 +1,62 @@
-# Compiled class file
-*.class
+# Directorios de compilación
+/bin/
+/build/
+/out/
 
-# Log file
+# Archivos de configuración específicos del entorno
+*.iml
+.idea/
+*.classpath
+*.project
+*.settings/
+.DS_Store
+
+# Librerías y dependencias descargadas
+/lib/
+/target/
+.gradle/
+/*.jar
+/*.war
+
+# Archivos generados por Maven o Gradle
+.mvn/
+**/mvnw
+**/mvnw.cmd
+**/target/
+.gradle/
+build/
 *.log
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# Archivos de caché
+*.class
 *.jar
 *.war
-*.nar
 *.ear
-*.zip
-*.tar.gz
-*.rar
+*.swp
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Archivos de sistema
+Thumbs.db
+*.DS_Store
+
+# Configuración de IntelliJ y Eclipse
+*.iml
+.idea/
+*.classpath
+*.project
+*.settings/
+
+# Configuración de VS Code
+.vscode/
+
+# Archivos de test coverage
+*.exec
+coverage-reports/
+
+# Archivos de logs
+*.log
+logs/
+
+# Otros
+*.tmp
+*.temp
+*.bak
