@@ -14,4 +14,11 @@ public class Calculadora {
     public long multiplicar(long factor1 ,long factor2){
         return factor1*factor2;
     }
+    public void presentarTablaMultiplica(int numero)
+    {
+        for(int i = 0; i <= 10 ; i++) {
+            System.out.println(i * numero);
+
+        }
+    }
 }
