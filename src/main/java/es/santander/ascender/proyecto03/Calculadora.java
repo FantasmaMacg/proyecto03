@@ -21,12 +21,11 @@ public class Calculadora {
             
         }
     }
-    public void calcularTablaMultiplicar(int numero){
+    public int[] calcularTablaMultiplicar(int numero) {
         int[] resultados = new int[11];
-        for(int i = 0; i <= 10 ; i++) {
-             resultados[i] = i * numero;   
+        for (int i = 0; i <= 10; i++) {
+            resultados[i] = i * numero;
         }
         return resultados;
-    
     }
 }
