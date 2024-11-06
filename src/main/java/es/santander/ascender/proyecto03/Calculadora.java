@@ -18,7 +18,15 @@ public class Calculadora {
     {
         for(int i = 0; i <= 10 ; i++) {
             System.out.println(i * numero);
-
+            
         }
+    }
+    public void calcularTablaMultiplicar(int numero){
+        int[] resultados = new int[11];
+        for(int i = 0; i <= 10 ; i++) {
+             resultados[i] = i * numero;   
+        }
+        return resultados;
+    
     }
 }

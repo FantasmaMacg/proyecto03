@@ -19,7 +19,6 @@ public class Cacular
         System.out.println("escriba inicial de operación");
         String llamar = scanneruno.next();
         
-        
         long resultadosuma =calculadora.sumar(a, b);
         long resultadoresta =calculadora.restar(a, b);
         long resultadodividir =calculadora.dividir(a, b);
@@ -44,9 +43,7 @@ public class Cacular
             System.out.println("resultado suma "+ resultadosuma);
            
         }   
-        else{
-            System.out.println("no hay operación valida");
-        }
+       
         scanner.close();   
         scanneruno.close();
     }

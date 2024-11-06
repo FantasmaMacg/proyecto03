@@ -63,5 +63,9 @@ public class CalculadoraTest {
         
         sut.presentarTablaMultiplica(5);
     }
+    @Test
+    public void testcalcularTablaMultiplicar(){
+        sut.calcularTablaMultiplicar(4);
+    }
 
 }
