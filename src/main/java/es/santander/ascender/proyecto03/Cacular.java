@@ -5,13 +5,13 @@ import java.util.Scanner;
 
 public class Cacular 
 {
-    public static void main( String[] args )
+    /* public static void main( String[] args )
     {
         Calculadora calculadora =  new Calculadora();
         
         Scanner scanneruno = new Scanner(System.in);
         Scanner scanner = new Scanner(System.in);
-        System.out.println("marque numero o tabla a saber");
+        System.out.println("marque numero o tabla de multiplicar a saber");
         
         int a = scanner.nextInt();
         System.out.println("marque numero");
@@ -29,23 +29,21 @@ public class Cacular
         }
         if (llamar.equals("m")){
             System.out.println("resultado multiplicar "+resultadomultiplicar);
-            scanner.close();
         }
         if (llamar.equals("d")){
             System.out.println("resultado dividir "+resultadodividir);
-            scanner.close();
-        }
+            
         if (llamar.equals("r")){
             System.out.println("resultado resta "+resultadoresta);
             
         }
         if (llamar.equals("s")){
-            System.out.println("resultado suma "+ resultadosuma);
-           
+            System.out.println("resultado suma "+ resultadosuma);   
         }   
        
         scanner.close();   
         scanneruno.close();
     }
     
+    */
 }

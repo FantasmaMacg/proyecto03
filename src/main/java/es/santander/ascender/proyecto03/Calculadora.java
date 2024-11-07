@@ -1,7 +1,7 @@
 package es.santander.ascender.proyecto03;
 
 public class Calculadora {
-   
+    
     public long sumar(long sumando1 ,long sumando2){
         return  sumando1+sumando2;
     }
@@ -27,5 +27,25 @@ public class Calculadora {
             resultados[i] = i * numero;
         }
         return resultados;
+    }
+    public int[] calcularTablaMultiplicarConWhile(int numero) {
+        int[] tablademultiplicar = new int[11];
+        int i = 0;
+        while (i <= 10) {  
+            tablademultiplicar[i] = numero * i;
+            i++;
+        }
+          
+        return tablademultiplicar;
+    }
+    public int[] calcularTablaMultiplicarConDoWhile(int numero) {
+        int[] tablademultiplicar = new int[11];
+        int i = 0;
+        do {  
+            tablademultiplicar[i] = numero * i;
+            i++;
+        }while (i < tablademultiplicar.length -1);
+          
+        return tablademultiplicar;
     }
 }

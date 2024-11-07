@@ -49,7 +49,6 @@ public class CalculadoraTest {
         assertEquals(14 ,resultadosuma);
         assertEquals(40 ,resultadomultiplicar);
     }
-
     @Test
     public void testMegaTotal(){
      testSumar();  
@@ -65,7 +64,19 @@ public class CalculadoraTest {
     }
     @Test
     public void testcalcularTablaMultiplicar(){
+
         sut.calcularTablaMultiplicar(4);
     }
+    @Test
+    public void testcalcularTablaMultiplicarwhile(){
+
+        sut.calcularTablaMultiplicarConWhile(4);
+    }
+    @Test
+    public void testcalcularTablaMultiplicardowhile(){
+
+        sut.calcularTablaMultiplicarConDoWhile(4);
+    }
+
 
 }
