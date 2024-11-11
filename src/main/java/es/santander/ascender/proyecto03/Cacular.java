@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Cacular 
 {
-    /* public static void main( String[] args )
+    public static void main( String[] args )
     {
         Calculadora calculadora =  new Calculadora();
         
@@ -27,6 +27,9 @@ public class Cacular
         if (llamar.equals("t")){
         calculadora.presentarTablaMultiplica(a);
         }
+        if (llamar ==("t")){
+            calculadora.presentarTablaMultiplica(a);
+            }
         if (llamar.equals("m")){
             System.out.println("resultado multiplicar "+resultadomultiplicar);
         }
@@ -45,5 +48,5 @@ public class Cacular
         scanneruno.close();
     }
     
-    */
+    
 }
